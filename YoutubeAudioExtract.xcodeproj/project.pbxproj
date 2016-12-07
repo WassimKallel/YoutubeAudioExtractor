@@ -13,6 +13,22 @@
 		B283109D1D11CBB500E93F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B283109B1D11CBB500E93F23 /* Main.storyboard */; };
 		B283109F1D11CBB500E93F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B283109E1D11CBB500E93F23 /* Assets.xcassets */; };
 		B28310A21D11CBB500E93F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28310A01D11CBB500E93F23 /* LaunchScreen.storyboard */; };
+		B28310B01D11CC8600E93F23 /* JXcore.m in Sources */ = {isa = PBXBuildFile; fileRef = B28310AE1D11CC8600E93F23 /* JXcore.m */; };
+		B28310B21D11CC9700E93F23 /* JS in Resources */ = {isa = PBXBuildFile; fileRef = B28310B11D11CC9700E93F23 /* JS */; };
+		B28310B51D11CCFE00E93F23 /* YoutubeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B28310B41D11CCFE00E93F23 /* YoutubeApi.m */; };
+		B28310C41D11CD6900E93F23 /* libcares.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310B91D11CD6900E93F23 /* libcares.a */; };
+		B28310C51D11CD6900E93F23 /* libchrome_zlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310BA1D11CD6900E93F23 /* libchrome_zlib.a */; };
+		B28310C61D11CD6900E93F23 /* libhttp_parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310BB1D11CD6900E93F23 /* libhttp_parser.a */; };
+		B28310C71D11CD6900E93F23 /* libjx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310BC1D11CD6900E93F23 /* libjx.a */; };
+		B28310C81D11CD6900E93F23 /* libleveldb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310BD1D11CD6900E93F23 /* libleveldb.a */; };
+		B28310C91D11CD6900E93F23 /* libleveldown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310BE1D11CD6900E93F23 /* libleveldown.a */; };
+		B28310CA1D11CD6900E93F23 /* libmozjs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310BF1D11CD6900E93F23 /* libmozjs.a */; };
+		B28310CB1D11CD6900E93F23 /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310C01D11CD6900E93F23 /* libopenssl.a */; };
+		B28310CC1D11CD6900E93F23 /* libsnappy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310C11D11CD6900E93F23 /* libsnappy.a */; };
+		B28310CD1D11CD6900E93F23 /* libsqlite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310C21D11CD6900E93F23 /* libsqlite3.a */; };
+		B28310CE1D11CD6900E93F23 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310C31D11CD6900E93F23 /* libuv.a */; };
+		B28310D01D11CDBB00E93F23 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28310CF1D11CDBB00E93F23 /* CoreFoundation.framework */; };
+		B2CD8C4D1D11CE2300652C02 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD8C4C1D11CE2300652C02 /* libstdc++.6.0.9.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,26 @@
 		B283109E1D11CBB500E93F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28310A11D11CBB500E93F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28310A31D11CBB500E93F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28310AD1D11CC8600E93F23 /* JXcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXcore.h; path = JXcore/JXcore.h; sourceTree = "<group>"; };
+		B28310AE1D11CC8600E93F23 /* JXcore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXcore.m; path = JXcore/JXcore.m; sourceTree = "<group>"; };
+		B28310B11D11CC9700E93F23 /* JS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JS; sourceTree = "<group>"; };
+		B28310B31D11CCFE00E93F23 /* YoutubeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeApi.h; sourceTree = "<group>"; };
+		B28310B41D11CCFE00E93F23 /* YoutubeApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeApi.m; sourceTree = "<group>"; };
+		B28310B71D11CD6900E93F23 /* jx_result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jx_result.h; path = JXcore/bin/jx_result.h; sourceTree = "<group>"; };
+		B28310B81D11CD6900E93F23 /* jx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jx.h; path = JXcore/bin/jx.h; sourceTree = "<group>"; };
+		B28310B91D11CD6900E93F23 /* libcares.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcares.a; path = JXcore/bin/libcares.a; sourceTree = "<group>"; };
+		B28310BA1D11CD6900E93F23 /* libchrome_zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libchrome_zlib.a; path = JXcore/bin/libchrome_zlib.a; sourceTree = "<group>"; };
+		B28310BB1D11CD6900E93F23 /* libhttp_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhttp_parser.a; path = JXcore/bin/libhttp_parser.a; sourceTree = "<group>"; };
+		B28310BC1D11CD6900E93F23 /* libjx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjx.a; path = JXcore/bin/libjx.a; sourceTree = "<group>"; };
+		B28310BD1D11CD6900E93F23 /* libleveldb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libleveldb.a; path = JXcore/bin/libleveldb.a; sourceTree = "<group>"; };
+		B28310BE1D11CD6900E93F23 /* libleveldown.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libleveldown.a; path = JXcore/bin/libleveldown.a; sourceTree = "<group>"; };
+		B28310BF1D11CD6900E93F23 /* libmozjs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmozjs.a; path = JXcore/bin/libmozjs.a; sourceTree = "<group>"; };
+		B28310C01D11CD6900E93F23 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenssl.a; path = JXcore/bin/libopenssl.a; sourceTree = "<group>"; };
+		B28310C11D11CD6900E93F23 /* libsnappy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsnappy.a; path = JXcore/bin/libsnappy.a; sourceTree = "<group>"; };
+		B28310C21D11CD6900E93F23 /* libsqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsqlite3.a; path = JXcore/bin/libsqlite3.a; sourceTree = "<group>"; };
+		B28310C31D11CD6900E93F23 /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuv.a; path = JXcore/bin/libuv.a; sourceTree = "<group>"; };
+		B28310CF1D11CDBB00E93F23 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = JS/CoreFoundation.framework; sourceTree = "<group>"; };
+		B2CD8C4C1D11CE2300652C02 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +69,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CD8C4D1D11CE2300652C02 /* libstdc++.6.0.9.dylib in Frameworks */,
+				B28310C51D11CD6900E93F23 /* libchrome_zlib.a in Frameworks */,
+				B28310CD1D11CD6900E93F23 /* libsqlite3.a in Frameworks */,
+				B28310C81D11CD6900E93F23 /* libleveldb.a in Frameworks */,
+				B28310C91D11CD6900E93F23 /* libleveldown.a in Frameworks */,
+				B28310C61D11CD6900E93F23 /* libhttp_parser.a in Frameworks */,
+				B28310C41D11CD6900E93F23 /* libcares.a in Frameworks */,
+				B28310C71D11CD6900E93F23 /* libjx.a in Frameworks */,
+				B28310CB1D11CD6900E93F23 /* libopenssl.a in Frameworks */,
+				B28310D01D11CDBB00E93F23 /* CoreFoundation.framework in Frameworks */,
+				B28310CC1D11CD6900E93F23 /* libsnappy.a in Frameworks */,
+				B28310CE1D11CD6900E93F23 /* libuv.a in Frameworks */,
+				B28310CA1D11CD6900E93F23 /* libmozjs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +91,10 @@
 		B28310861D11CBB500E93F23 = {
 			isa = PBXGroup;
 			children = (
+				B28310CF1D11CDBB00E93F23 /* CoreFoundation.framework */,
+				B2CD8C4C1D11CE2300652C02 /* libstdc++.6.0.9.dylib */,
+				B28310B11D11CC9700E93F23 /* JS */,
+				B28310A91D11CC4500E93F23 /* JXcore */,
 				B28310911D11CBB500E93F23 /* YoutubeAudioExtract */,
 				B28310901D11CBB500E93F23 /* Products */,
 			);
@@ -58,6 +111,8 @@
 		B28310911D11CBB500E93F23 /* YoutubeAudioExtract */ = {
 			isa = PBXGroup;
 			children = (
+				B28310B31D11CCFE00E93F23 /* YoutubeApi.h */,
+				B28310B41D11CCFE00E93F23 /* YoutubeApi.m */,
 				B28310951D11CBB500E93F23 /* AppDelegate.h */,
 				B28310961D11CBB500E93F23 /* AppDelegate.m */,
 				B28310981D11CBB500E93F23 /* ViewController.h */,
@@ -77,6 +132,36 @@
 				B28310931D11CBB500E93F23 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B28310A91D11CC4500E93F23 /* JXcore */ = {
+			isa = PBXGroup;
+			children = (
+				B28310B61D11CD5800E93F23 /* bin */,
+				B28310AD1D11CC8600E93F23 /* JXcore.h */,
+				B28310AE1D11CC8600E93F23 /* JXcore.m */,
+			);
+			name = JXcore;
+			sourceTree = "<group>";
+		};
+		B28310B61D11CD5800E93F23 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				B28310B71D11CD6900E93F23 /* jx_result.h */,
+				B28310B81D11CD6900E93F23 /* jx.h */,
+				B28310B91D11CD6900E93F23 /* libcares.a */,
+				B28310BA1D11CD6900E93F23 /* libchrome_zlib.a */,
+				B28310BB1D11CD6900E93F23 /* libhttp_parser.a */,
+				B28310BC1D11CD6900E93F23 /* libjx.a */,
+				B28310BD1D11CD6900E93F23 /* libleveldb.a */,
+				B28310BE1D11CD6900E93F23 /* libleveldown.a */,
+				B28310BF1D11CD6900E93F23 /* libmozjs.a */,
+				B28310C01D11CD6900E93F23 /* libopenssl.a */,
+				B28310C11D11CD6900E93F23 /* libsnappy.a */,
+				B28310C21D11CD6900E93F23 /* libsqlite3.a */,
+				B28310C31D11CD6900E93F23 /* libuv.a */,
+			);
+			name = bin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28310B21D11CC9700E93F23 /* JS in Resources */,
 				B28310A21D11CBB500E93F23 /* LaunchScreen.storyboard in Resources */,
 				B283109F1D11CBB500E93F23 /* Assets.xcassets in Resources */,
 				B283109D1D11CBB500E93F23 /* Main.storyboard in Resources */,
@@ -151,7 +237,9 @@
 			files = (
 				B283109A1D11CBB500E93F23 /* ViewController.m in Sources */,
 				B28310971D11CBB500E93F23 /* AppDelegate.m in Sources */,
+				B28310B01D11CC8600E93F23 /* JXcore.m in Sources */,
 				B28310941D11CBB500E93F23 /* main.m in Sources */,
+				B28310B51D11CCFE00E93F23 /* YoutubeApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +353,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JS",
+				);
 				INFOPLIST_FILE = YoutubeAudioExtract/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JXcore/bin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wizzlabs.com.YoutubeAudioExtract;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -276,10 +373,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JS",
+				);
 				INFOPLIST_FILE = YoutubeAudioExtract/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JXcore/bin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wizzlabs.com.YoutubeAudioExtract;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +408,7 @@
 				B28310A81D11CBB500E93F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
